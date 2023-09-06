@@ -5,7 +5,7 @@ import {IoAnalyticsOutline} from "react-icons/io5"
 import {CgNotes} from "react-icons/cg"
 function SideNav() {
   return (
-    <div className='bg-[#2E455C] flex flex-col items-center justify-center w-20 h-72 rounded-xl'>
+    <div className='bg-[#2E455C] flex flex-col items-center justify-center w-20 h-72 rounded-3xl'>
         <ul>
             <li>
                 <Button className="border-none">

@@ -11,6 +11,7 @@
   "dependencies": {
     "apexcharts": "^3.42.0",
     "autoprefixer": "10.4.15",
+    "ffmpeg-extract-frames": "^2.0.2",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.5.0",
     "next": "13.4.19",
