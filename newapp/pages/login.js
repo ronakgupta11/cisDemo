@@ -6,12 +6,16 @@ import React from 'react'
 
 function Login() {
   return (
-    <form className="flex max-w-md flex-col gap-4">
+    <div className='p-8'>
+      <h2 className=' text-white font-bold text-5xl text-center'> Login</h2>
+
+    <form className="flex max-w-md mx-auto mt-16 flex-col gap-4">
     <div>
       <div className="mb-2 block">
         <Label
           htmlFor="email2"
           value="Your email"
+          className='text-white'
         />
       </div>
       <TextInput
@@ -27,6 +31,7 @@ function Login() {
         <Label
           htmlFor="password2"
           value="Your password"
+          className='text-white'
         />
       </div>
       <TextInput
@@ -38,10 +43,12 @@ function Login() {
     </div>
 
 
-    <Button type="submit">
+    <Button type="submit" className="bg-[#1B59F8]">
       Login
     </Button>
   </form>
+  </div>
+
   )
 }
 
