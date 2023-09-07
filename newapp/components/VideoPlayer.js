@@ -3,9 +3,14 @@ import ReactPlayer from 'react-player'
 
 function VideoPlayer() {
   return (
-    <>
-  <ReactPlayer url='https://www.youtube.com/watch?v=_3zTEXNoGFI' />
-    </>
+    <div className='h-1/2 p-2 w-full '>
+
+    <video controls className='w-full rounded-2xl'>
+        <source src="https://www.youtube.com/watch?v=SFbV7sTSAlA" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
     
   )
 }
