@@ -8,7 +8,7 @@ function Navbar() {
       <Link href={"/"}>
 
         <h2 className='text-white text-3xl font-semibold mx-4'>
-            CamAI
+            ANPR_VISION
         </h2>
         </Link>
 
