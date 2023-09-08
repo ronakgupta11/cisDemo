@@ -3,6 +3,9 @@ import React from 'react'
 import { HiArrowRight } from 'react-icons/hi'
 import Chart from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
+Chart.defaults.color = "#ffffff"
+Chart.defaults.elements.bar.inflateAmount = "1"
+Chart.defaults.elements.bar.base = "1"
 
 function ChartComp() {
   const labels = ["12 pm", "1 pm", "2 pm", "3 pm", "4 pm", "5 pm"];

@@ -20,7 +20,7 @@ function SideNav() {
                 
             </li>
             <li>
-                <Link href={"/saved"}>
+                <Link href={"/records"}>
                 <Button className="border-none">
                 <HiBookmark className="h-6 w-6" />
                 </Button>
@@ -37,7 +37,7 @@ function SideNav() {
                 
             </li>
             <li>
-            <Link href={"/chat"}>
+            <Link href={"/analytics"}>
                 <Button className="border-none">
                 <HiChat className="h-6 w-6" />
                 </Button>
@@ -45,7 +45,7 @@ function SideNav() {
                
             </li>
             <li>
-            <Link href={"/notes"}>
+            <Link href={"/records"}>
                 <Button className="border-none">
                 <CgNotes className="h-6 w-6" />
                 </Button>
